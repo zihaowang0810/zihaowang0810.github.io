@@ -59,9 +59,20 @@ img {
 }
 
 .monogram {
-  font-size: 30px;
+  display: inline-flex;
+  align-items: center;
   line-height: 1;
   text-decoration: none;
+}
+
+.monogram img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+
+.monogram:hover img {
+  transform: translateY(-1px) scale(1.04);
 }
 
 .site-header nav {
