@@ -321,6 +321,14 @@ img {
   line-height: 1.58;
 }
 
+.contributors {
+  display: inline-block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 .publication-links {
   display: flex;
   align-items: baseline;
